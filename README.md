@@ -1,6 +1,6 @@
-# qa-automation-login-playwright  
+# QA Automation login Playwright  
 
-This project demonstrates a professional automated testing approach for login functionality using Playwright. The focus is on positive, negative, security, and edge-case scenarios from a QA perspective.  
+  This project demonstrates a professional automated testing approach for login functionality using Playwright. The focus is on positive, negative, security, and edge-case scenarios from a QA perspective.  
 
 ## Test Scope  
 
@@ -8,6 +8,23 @@ This project demonstrates a professional automated testing approach for login fu
   - Negative cases (invalid username/password, empty username/password)
   - Security mindset (SQL Injection, Path Traversal)
   - UI validation
+
+## Covered Test Scenarios
+
+  - Successful login with valid credentials  
+  - Negative login scenarios (invalid / empty input)  
+  - Basic security testing (SQL injection attempt)  
+  - UI and error message validation  
+
+## Tech Stack
+
+  - Playwright  
+  - JavaScript  
+  - Page Object Model (POM)  
+
+## Run Tests
+  npm install  
+  npx playwright test  
 
 ## Test Case  
 
@@ -20,3 +37,7 @@ This project demonstrates a professional automated testing approach for login fu
   TC007 - Login failed when username and password is empty  
   TC008 - bypass with path traversal  
   TC009 - SQL Injection
+
+## PoA
+
+  Automated Login Testing PoA. Check [Youtube Video Link](https://youtu.be/64TcQgSzGZI)
